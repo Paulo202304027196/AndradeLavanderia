@@ -1,0 +1,12 @@
+.navbar-bubble{
+    background-color: #00B5B5;
+}
+
+.imagem-de-fundo {
+    background-image: url('../assets/background-bubble.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* Adicione cor de texto para que seja legível */
+    height: 50vh;
+}

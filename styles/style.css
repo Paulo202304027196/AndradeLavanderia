@@ -7,6 +7,29 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: white; /* Adicione cor de texto para que seja legível */
     height: 50vh;
+}
+
+.content-inicio {
+    border-top: 5px solid #00B5B5;
+}
+
+
+/* Página de serviços */
+.cards-servicos {
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.card{
+    margin: 20px;
+}
+
+.card a{
+    background-color: #00B5B5;
+    border: none;
+}
+
+.card a:hover{
+    background-color: #029191;
 }

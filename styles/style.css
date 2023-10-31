@@ -18,7 +18,6 @@
 .imagem-card{
     height: 15rem;
     object-fit: cover; /* Para manter a proporção da imagem e preencher o espaço */
-    border-: 1.5rem 1.5rem 0 0;
 }
 
 

@@ -11,18 +11,26 @@
 }
 
 .content-inicio {
-    border-top: 5px solid #00B5B5;
+    border-top: 0,3125rem solid #00B5B5;
+    padding: 2rem;
+}
+
+.imagem-card{
+    height: 15rem;
+    object-fit: cover; /* Para manter a proporção da imagem e preencher o espaço */
+    border-: 1.5rem 1.5rem 0 0;
 }
 
 
 /* Página de serviços */
 .cards-servicos {
-    margin-top: 50px;
+    margin-top: 3.5rem;
     text-align: justify;
 }
 
 .card{
     margin: 20px;
+    border: 2px solid #00B5B5;
 }
 
 .card a{
@@ -36,7 +44,12 @@
 
 /* Página de contato*/
 .content-contato{
-    padding: 40px;
+    padding: 50px;
+    border-bottom: 5px solid #00B5B5;
+}
+
+.content-contato img{
+    margin: 20px auto;
 }
 
 .content-contato p{
